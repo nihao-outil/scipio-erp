@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz-properties.xsd">
+    <property key="SalesTargetApplication">
+        <value xml:lang="de">Instandhaltung</value>
+        <value xml:lang="en">Sales Target Application</value>
+        <value xml:lang="fr">Application de maintenance des biens</value>
+        <value xml:lang="it">Applicazione manutenzione cespiti</value>
+        <value xml:lang="ja">資産管理業務</value>
+        <value xml:lang="th">บำรุงรักษาโปรแกรม</value>
+        <value xml:lang="vi">Ứng dụng Quản lý Tài sản</value>
+        <value xml:lang="zh">资产维护应用程序</value>
+        <value xml:lang="zh-TW">資產維護應用程式</value>
+    </property>
+    <property key="SalesTargetCompanyName">
+        <value xml:lang="de">SCIPIO - Instandhaltung</value>
+        <value xml:lang="en">SCIPIO - Sales Target</value>
+        <value xml:lang="fr">SCIPIO - maintenance des biens</value>
+        <value xml:lang="it">SCIPIO - Manutenzione cespiti</value>
+        <value xml:lang="ja">SCIPIO - 資産管理</value>
+        <value xml:lang="th">SCIPIO - การบำรุงรักษา</value>
+        <value xml:lang="vi">SCIPIO - Quản lý tài sản</value>
+        <value xml:lang="zh">SCIPIO - 资产维护</value>
+        <value xml:lang="zh-TW">SCIPIO - 資產維護</value>
+    </property>
+    <property key="SalesTargetCompanySubtitle">
+        <value xml:lang="de">Instandhaltungs Abteilung</value>
+        <value xml:lang="en">Sales Department</value>
+        <value xml:lang="fr">Service de maintenance</value>
+        <value xml:lang="it">Servizio manutenzione</value>
+        <value xml:lang="ja">メンテナンス部門</value>
+        <value xml:lang="th">แผนกการดูแลรักษา</value>
+        <value xml:lang="vi">Phòng Quản lý tài sản</value>
+        <value xml:lang="zh">维护部门</value>
+        <value xml:lang="zh-TW">維護部門</value>
+    </property>
+    <property key="SalesTargetViewPermissionError">
+        <value xml:lang="de">Berechtigungsfehler: Sie dürfen diese Seite nicht sehen.</value>
+        <value xml:lang="en">You are not allowed to view this page.</value>
+        <value xml:lang="zh">不允许你浏览这个页面。</value>
+        <value xml:lang="zh-TW">不允許您檢視這個頁面.</value>
+    </property>
+
+</resource>

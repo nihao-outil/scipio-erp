@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is subject to the terms and conditions defined in the
+files 'LICENSE' and 'NOTICE', which are part of this source
+code package.
+-->
+<entity-engine-xml>
+    <!-- Sales Target security -->
+    <SecurityPermission description="ALL Sales Target operations." permissionId="SALES_ADMIN"/>
+    <SecurityPermission description="Sales Target View permission." permissionId="SALES_VIEW"/>
+    <SecurityPermission description="Sales Target Create operations." permissionId="SALES_CREATE"/>
+    <SecurityPermission description="Sales Target Update operations." permissionId="SALES_UPDATE"/>
+    <SecurityPermission description="Sales Target Delete operations." permissionId="SALES_DELETE"/>
+
+    <!-- Super Security group -->
+    <SecurityGroupPermission groupId="SUPER" permissionId="SALES_ADMIN"/>
+    <SecurityGroupPermission groupId="SUPER" permissionId="SALES_VIEW"/>
+    <SecurityGroupPermission groupId="SUPER" permissionId="SALES_CREATE"/>
+    <SecurityGroupPermission groupId="SUPER" permissionId="SALES_UPDATE"/>
+    <SecurityGroupPermission groupId="SUPER" permissionId="SALES_DELETE"/>
+</entity-engine-xml>

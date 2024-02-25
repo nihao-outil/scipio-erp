@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is subject to the terms and conditions defined in the
+files 'LICENSE' and 'NOTICE', which are part of this source
+code package.
+-->
+<entity-engine-xml>
+    <!-- Sales Target security -->
+    <SecurityGroup description="Sales Target Admin group, has all maintenance permissions." groupId="SALESADMIN"/>
+    <SecurityGroup description="Sales Target Technician group, has view and update." groupId="SALESTECH"/>
+
+    <SecurityGroupPermission groupId="SALESADMIN" permissionId="ORDERMGR_ADMIN"/>
+    <SecurityGroupPermission groupId="SALESADMIN" permissionId="ORDERMGR_VIEW"/>
+    <SecurityGroupPermission groupId="SALESADMIN" permissionId="ORDERMGR_UPDATE"/>
+
+    <SecurityGroupPermission groupId="SALESTECH" permissionId="ORDERMGR_VIEW"/>
+    <SecurityGroupPermission groupId="SALESTECH" permissionId="ORDERMGR_UPDATE"/>
+
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="ORDERMGR_ADMIN"/>
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="ORDERMGR_VIEW"/>
+    <SecurityGroupPermission groupId="FULLADMIN" permissionId="ORDERMGR_UPDATE"/>
+</entity-engine-xml>
